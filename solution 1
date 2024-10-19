@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Results Summary Page</title>
+</head>
+<body>
+    <div class="container">
+        <!-- .score is the first container -->
+        <div class="score"> 
+            <h3 class="your-results">Your Result</h3>
+
+            <!-- .circle-score is the container for the 76/100 -->
+            <div class="circle-score">
+                <h1>76</h1>
+                <p class="paragraph-score">of 100</p>
+            </div> <!-- closing .circle-score -->
+
+            <h2>Great</h2>
+            <p class="paragraph-container">You scored higher than 65% of the people who have taken these tests.</p>
+        </div> <!-- closing .score -->
+
+        <!-- .breakdown is the second container -->
+        <div class="breakdown">
+            <h3 class="heading-breakdown">Summary</h3>
+
+            <!-- .reaction container -->
+            <div class="reaction">
+                <img src="images/icon-reaction.svg" alt="lightening">
+                <p class="reaction-breakdown">
+                    <span class="reaction-text">Reaction</span>
+                </p>
+                <p class="reaction-score-percent">
+                    <span class="top-percent">80</span>
+                    <span class="bottom-percent"> / 100</span>
+                </p>
+            </div> <!-- closing .reaction -->
+
+            <!-- .memory container -->
+            <div class="memory">
+                <img src="images/icon-memory.svg" alt="brain">
+                <p class="memory-breakdown">
+                    <span class="memory-text">Memory</span>
+                </p>
+                <p class="memory-score-percent">
+                    <span class="top-percent">92</span>
+                    <span class="bottom-percent"> / 100</span>
+                </p>
+            </div> <!-- closing .memory -->
+
+            <!-- .verbal container -->
+            <div class="verbal">
+                <img src="images/icon-verbal.svg" alt="speech">
+                <p class="verbal-breakdown">
+                    <span class="verbal-text">Verbal</span>
+                </p>
+                <p class="verbal-score-percent">
+                    <span class="top-percent">61</span>
+                    <span class="bottom-percent"> / 100</span>
+                </p>
+            </div> <!-- closing .verbal -->
+
+            <!-- .visual container -->
+            <div class="visual">
+                <img src="images/icon-visual.svg" alt="eye">
+                <p class="visual-breakdown">
+                    <span class="visual-text">Visual</span>
+                </p>
+                <p class="visual-score-percent">
+                    <span class="top-percent">72</span>
+                    <span class="bottom-percent"> / 100</span>
+                </p>
+            </div> <!-- closing .visual -->
+
+            <button>Continue</button>
+        </div> <!-- closing .breakdown -->
+    </div> <!-- closing .container -->
+</body>
+</html>
